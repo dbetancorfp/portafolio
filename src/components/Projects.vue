@@ -1,6 +1,6 @@
 <template>
   <section id="projects">
-    <h2>Proyectos</h2>
+    <h2>{{ $t("projects") }}</h2>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
       varius, justo sed consectetur sollicitudin.
