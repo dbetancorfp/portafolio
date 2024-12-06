@@ -1,0 +1,25 @@
+{
+    "aboutme": "Sobre mí",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "greeting": "Hola, soy Samuel",
+    "description1": "Soy un estudiante apasionado por el mundo de los videojuegos, mi meta es dedicar mi vida al desarrollo y creación de videojuegos.",
+    "description2": "Mi lema es que siempre hay que ser positivo, todo tiene solución.",
+    "project": "Mis Proyectos",
+    "project1": {
+        "title": "Proyecto 1",
+        "description": "Creación de una página web ambientada en el videojuego League of Legends.",
+         "link": "https://github.com/Shulkiora8/LOL"
+    },
+    "project2": {
+        "title": "Proyecto 2",
+        "description": "Página de compra de Pokémon.",
+        "link": "https://github.com/Shulkiora8/Poketrafico"
+    },
+    "habilites": "Mis Habilidades",
+    "contact1": "Nombre",
+    "contact2": "Correo Electrónico",
+    "contact3": "Mensaje"
+}

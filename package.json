@@ -1,21 +1,26 @@
 {
-  "name": "2---pyto-base-vue-con-vite-vue-js",
+  "name": "portfolio-vue",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "jquery": "^3.7.1",
-    "vue": "^3.5.12",
-    "vue-router": "^4.4.5"
+    "firebase": "^11.0.2",
+    "jspdf": "^2.5.2",
+    "vue": "^3.5.13",
+    "vue-i18n": "^10.0.5",
+    "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.1.4",
-    "vite": "^5.4.10"
+    "@types/vue": "^1.0.31",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3",
+    "vue-tsc": "^2.1.10"
   }
 }

@@ -1,9 +1,3 @@
 <template>
-  <section>
-    <h1>Página no encontrada</h1>
-  </section>
+    <h1>HOla buyenas</h1>
 </template>
-
-<script setup></script>
-
-<style></style>

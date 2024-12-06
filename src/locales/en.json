@@ -1,0 +1,24 @@
+{
+    "aboutme": "About Me",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact",
+    "greeting": "Hi, I'm Samuel",
+    "description1": "I am a student passionate about the world of video games, my goal is to dedicate my life to the development and creation of video games.",
+    "description2": "My motto is that you always have to be positive, everything has a solution.",
+    "project": "My Projects",
+    "project1": {
+        "title": "Project 1",
+        "description": "Creation of a website themed around the video game League of Legends.",
+        "link": "https://github.com/Shulkiora8/LOL"
+    },
+    "project2": {
+        "title": "Project 2",
+        "description": "Page to buy Pokemon."
+    },
+    "habilites": "My Habilites",
+    "contact1": "Name",
+    "contact2": "Email",
+    "contact3": "Message"
+}

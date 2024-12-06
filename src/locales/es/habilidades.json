@@ -1,0 +1,45 @@
+{
+    "cards": [
+      {
+        "name": "Vue.js",
+        "description": "Usado principalmente en clase.",
+        "level": 2
+      },
+      {
+        "name": "TypeScript",
+        "description": "Usado para proyectos de clase.",
+        "level": 3
+      },
+      {
+        "name": "Kotlin",
+        "description": "Usado para hacer una aplicación movil.",
+        "level": 4
+      },
+      {
+        "name": "Python",
+        "description": "Mi primer leguaje de programación.",
+        "level": 4
+      },
+      {
+        "name": "JavaScript",
+        "description": "Usado mayormente en clase.",
+        "level": 3
+      },
+      {
+        "name": "C#",
+        "description": "Usado para crear de videojuegos.",
+        "level": 2
+      },
+      {
+        "name": "HTML",
+        "description": "Usado para crear la página web de un instituto privado.",
+        "level": 4
+      },
+      {
+        "name": "CSS",
+        "description": "Como complemento del HTML.",
+        "level": 3
+      }
+    ]
+  }
+  
