@@ -1,14 +1,21 @@
 <template>
   <section id="about">
-    <h2>Sobre mí</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut enim sed
-      justo ultricies elementum.
-    </p>
+    <div v-if="portfolio.loading">Cargando…</div>
+    <div v-else-if="portfolio.error">Error: {{ portfolio.error }}</div>
+
+    <div v-else-if="portfolio.data">
+      <h1>{{ portfolio.data.acercaDeMi?.titulo }}</h1>
+      <p>{{ portfolio.data.acercaDeMi?.resumen }}</p>
+    </div>
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { usePortfolioStore } from '../stores/portfolio'
+
+const portfolio = usePortfolioStore()
+
+</script>
 
 <style scoped>
 /* Estilos específicos */

@@ -1,0 +1,159 @@
+
+{
+  "acercaDeMi": {
+    "titulo": "Acerca de mí",
+    "resumen": "Desarrollador/a web con enfoque en frontend y buenas prácticas. Me gusta construir interfaces claras, rápidas y mantenibles.",
+    "ubicacion": "España",
+    "disponibilidad": "Abierto/a a nuevas oportunidades",
+    "foto": {
+      "alt": "Foto de perfil",
+      "url": "/assets/profile.jpg"
+    },
+    "enlaces": [
+      { "label": "GitHub", "url": "https://github.com/usuario" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/usuario" },
+      { "label": "CV (PDF)", "url": "/docs/cv.pdf" }
+    ]
+  },
+  "experiencia": {
+    "titulo": "Experiencia",
+    "items": [
+      {
+        "rol": "Desarrollador/a Frontend",
+        "empresa": "Empresa Ejemplo S.L.",
+        "ubicacion": "Remoto",
+        "fechaInicio": "2023-02",
+        "fechaFin": null,
+        "descripcion": "Desarrollo de componentes reutilizables, mejora de rendimiento y mantenimiento de diseño consistente.",
+        "logros": [
+          "Reducción de tiempos de carga mediante optimización de bundles.",
+          "Creación de librería interna de componentes.",
+          "Integración de APIs y control de estados."
+        ],
+        "tecnologias": ["Vue", "TypeScript", "Pinia", "Vite", "REST"]
+      },
+      {
+        "rol": "Desarrollador/a Web",
+        "empresa": "Freelance",
+        "ubicacion": "España",
+        "fechaInicio": "2021-06",
+        "fechaFin": "2023-01",
+        "descripcion": "Sitios web corporativos y pequeñas apps para clientes. Gestión completa del ciclo: análisis, implementación y despliegue.",
+        "logros": [
+          "Entrega de proyectos con enfoque responsive y accesibilidad.",
+          "Automatización de tareas de despliegue."
+        ],
+        "tecnologias": ["HTML", "CSS", "JavaScript", "Node.js"]
+      }
+    ]
+  },
+  "habilidades": {
+    "titulo": "Habilidades",
+    "categorias": [
+      {
+        "nombre": "Frontend",
+        "items": [
+          { "nombre": "Vue 3", "nivel": 4 },
+          { "nombre": "TypeScript", "nivel": 4 },
+          { "nombre": "JavaScript", "nivel": 4 },
+          { "nombre": "HTML5", "nivel": 5 },
+          { "nombre": "CSS3", "nivel": 4 }
+        ]
+      },
+      {
+        "nombre": "Backend",
+        "items": [
+          { "nombre": "Node.js", "nivel": 3 },
+          { "nombre": "PHP", "nivel": 3 },
+          { "nombre": "REST APIs", "nivel": 4 }
+        ]
+      },
+      {
+        "nombre": "Herramientas",
+        "items": [
+          { "nombre": "Git", "nivel": 4 },
+          { "nombre": "Docker", "nivel": 3 },
+          { "nombre": "Linux", "nivel": 4 },
+          { "nombre": "CI/CD", "nivel": 3 }
+        ]
+      }
+    ],
+    "escalaNivel": {
+      "min": 1,
+      "max": 5,
+      "labels": {
+        "1": "Básico",
+        "2": "Intermedio",
+        "3": "Competente",
+        "4": "Avanzado",
+        "5": "Experto"
+      }
+    }
+  },
+  "proyectos": {
+    "titulo": "Proyectos",
+    "items": [
+      {
+        "nombre": "Portfolio Vue + TS",
+        "descripcion": "Portfolio personal con secciones dinámicas, rutas y componentes reutilizables.",
+        "tags": ["Vue", "TypeScript", "Vite"],
+        "destacado": true,
+        "imagenes": [
+          { "alt": "Captura principal", "url": "/assets/projects/portfolio-1.png" }
+        ],
+        "links": {
+          "demo": "https://demo-portfolio.example.com",
+          "repo": "https://github.com/usuario/portfolio"
+        }
+      },
+      {
+        "nombre": "Dashboard de ventas",
+        "descripcion": "Dashboard con filtros, tablas y gráficos a partir de una API.",
+        "tags": ["Vue", "Pinia", "REST"],
+        "destacado": false,
+        "imagenes": [
+          { "alt": "Vista dashboard", "url": "/assets/projects/dashboard-1.png" }
+        ],
+        "links": {
+          "demo": null,
+          "repo": "https://github.com/usuario/dashboard"
+        }
+      },
+      {
+        "nombre": "API CRUD",
+        "descripcion": "API CRUD con autenticación básica y base de datos relacional.",
+        "tags": ["PHP", "MariaDB", "Nginx"],
+        "destacado": false,
+        "imagenes": [],
+        "links": {
+          "demo": null,
+          "repo": "https://github.com/usuario/api-crud"
+        }
+      }
+    ]
+  },
+  "contacto": {
+    "titulo": "Contacto",
+    "texto": "Si quieres contactar conmigo, usa el formulario o cualquiera de estos canales.",
+    "email": "tuemail@dominio.com",
+    "telefono": "+34 600 000 000",
+    "ubicacion": "España",
+    "redes": [
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/usuario" },
+      { "label": "GitHub", "url": "https://github.com/usuario" }
+    ],
+    "formulario": {
+      "enabled": true,
+      "campos": [
+        { "key": "nombre", "label": "Nombre", "type": "text", "required": true },
+        { "key": "email", "label": "Email", "type": "email", "required": true },
+        { "key": "mensaje", "label": "Mensaje", "type": "textarea", "required": true }
+      ]
+    }
+  },
+  "meta": {
+    "idioma": "es",
+    "ultimaActualizacion": "2025-12-29",
+    "version": "1.0.0"
+  }
+}
